@@ -11,7 +11,7 @@ import nest_asyncio
 nest_asyncio.apply()
 
 # 🔑 Токен и ID канала из переменных окружения
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = -1002267481727("BOT_TOKEN")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID"))
 WEBHOOK_URL = os.environ.get("WEBHOOK_URL")
 
